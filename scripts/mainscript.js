@@ -6,9 +6,9 @@ function dropdownfunc() {
     } else {
         x.style.display = "block";
     }
-    if (y.style.rotate === "0") {
-        y.style.rotate = "180";
+    if (y.style.transform === 'rotate(180deg)') {
+        y.style.transform = 'rotate(0deg)';
     } else {
-        y.style.rotate = "0";
+        y.style.transform = 'rotate(180deg)';
     }
 }
