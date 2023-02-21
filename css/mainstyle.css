@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    background-color: #1f1f1f;
+}
+
+.container {
+    background-color: #1f1f1f;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f1f1f;
+    padding: 1em;
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+    box-shadow: 0px 2px 15px #1f1f1f;
+    align-items: center;
+}
+
+.navbarleft {
+    background-color: #1f1f1f;
+    cursor: pointer;
+}
+
+.logohomebtn {
+    border-bottom: 0;
+}
+
+.logohomebtn:hover {
+    border-bottom: 0;
+}
+
+.navbarright {
+    background-color: #1f1f1f;
+}
+
+.menubutton {
+    background-color: #1f1f1f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.menubutton>img {
+    width: 1.5em;
+}
+
+#dropdown {
+    display: none;
+    border-bottom: 1px solid white;
+}
+
+.dropdownarrow {
+    text-align: center;
+}
+
+.dropdownimg {
+    rotate: 0;
+}
+
+.dropdownbtn {
+    background-color: #1f1f1f;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdownlistitem {
+    text-align: center;
+    width: 100%;
+    padding: .3em;
+    font-size: 1.3em;
+}
+
+.dropdownlink {
+    border: none;
+    width: 100%;
+}
+
+.content {
+    color: white;
+    padding: .5em;
+}
+
+.heading {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    font-family: 'Raleway', sans-serif;
+    padding-left: .5em;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid #87adf5;
+    padding-bottom: .1em;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}
+
+p {
+    padding-top: .5em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 1.2em;
+    padding-left: .5em;
+}
